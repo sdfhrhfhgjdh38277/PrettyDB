@@ -1,1 +1,2 @@
 # PrettyDB
+Database created through PrettyTable and Cryptography. The data is stored in .csv format and encrypted through the "Cryptography" library. The project is an experiment on two libraries that will be develop in future.
