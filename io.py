@@ -18,5 +18,5 @@ def load_from_csv(filename):
             rows = [row for row in reader]
         return field_names, rows
     except Exception as e:
-        logger.error(f"Ошибка при загрузке из файла: {e}")
+        logger.error(f"Error with download file: {e}")
         return None, None
